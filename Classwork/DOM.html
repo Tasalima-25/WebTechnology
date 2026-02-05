@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Learning</title>
+    <style>
+        .bg-black{
+            background-color: #0f0c0c;
+            color: #fff;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div>
+        <h1 id="title" class="heading">
+            DOM learning on chai aur code 
+            <span style="display: none;">test Text</span>
+        </h1>
+
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit ame hjhjhhjt.</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+        <input type="password">
+
+        <ul>
+            <li class="list-item" id="chiku">One</li>
+            <li class="list-item">Two</li>
+            <li class="list-item">Three</li>
+            <li class="list-item">Four</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+<!--
+------------
+DOM---Document Object Model
+
+--To change the text or style of text
+--Bridge between JS and HTML
+--Programming interface of HTML 
+--When browser load an HTML page, it converts html into Object,that object structure is called DOM
+--JS uses DOM to read,change,add,delete HTML elements
+
+------------
+
+document.getElementById("title")
+<h1 id=​"title" class=​"heading">​…​</h1>​
+
+document.getElementById("title").innerHTML="<h1>Taslima</h1>"
+innerHTML--to change content and 
+style--design
+
+--------Activity1--------
+Write Use of this
+document.getElementById("title").id
+document.getElementById("title").class
+document.getElementById("title").className
+document.getElementById("title").setAttributes
+document.getElementById("title").getAttributes
+
+--------Activity2--------
+document.querySelector('h2')
+document.querySelectorAll('li')
+document.querySelector('#title')
+
+--------Activity3--------
+Create Project based on basic html,css,JS
+
+
+-->
