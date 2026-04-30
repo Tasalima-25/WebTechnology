@@ -1,0 +1,31 @@
+SQL : Structural Query Language 
+used to communicate with relational databases.
+like mysql, postgre, oracle, SQLserver.
+Real-time example : Student manangement system
+ensures add update delete 
+
+Activities :
+create table
+insert data
+select data
+update
+delete
+
+create table student 
+(
+    int id ,
+    varchar name,
+    int age,
+    varchar email
+);
+
+insert into student values (303,'shravani',21,'shravanidake17@gmail.com');
+insert into student values (304,'tasalima',21,'tasalimaj2504@gmail.com');
+
+select * from student ; 
+-- connection node.js to database --
+node.js backend use to connect database
+steps :-
+node -v
+npm install mysql2
+create database
