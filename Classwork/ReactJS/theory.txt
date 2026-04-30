@@ -1,0 +1,81 @@
+
+******React********
+
+    -React is js library developed by Meta to build a fast and interactive user interfaces
+    -It is single page application(SPA)
+
+    Page doesnot reload,only content change
+    Example-- Insatgram,Facebook,Youtube
+
+
+Why do we use react/problem with js ?
+    Fully page reload , copmlex dom manipulation , hard to manage large application 
+    Solution -> updates only require parts to use reusable components
+
+
+Virtual DOM - 
+    It is a lightweight copy of the real DOM used by React to improve performance.
+        - when data changes react updates virtual dom 
+        - update only changed the part in the dom
+        - high performance 
+
+
+How to create project in react
+    node -v
+    npm -v
+    npx create react-app--old way
+    npm create vite@latest StudentApp 
+
+
+Vite-------
+    It is fast build tool
+    npm install--insatll dependencies
+    npm run dev--Start server
+
+
+File Structure-----
+    index.html-- main file/Entry file
+    main.jsx-- Entry point of React application
+
+    JSX--
+        jsx-- JavaScript + xml -- It allows to write html code inside js
+            Synatx-- 
+                const element=<h1>Hello React</h1>
+            Rule--
+                Must return single Parent
+                Use {} for JS
+
+Components----
+
+    It is heart of React
+    Reusable UI part
+        --Functional Component in React
+            Ex-
+                function student(){
+                    return <h1>This is Functional Component</h1>
+                }
+
+    Use Component--
+        function App(){
+            return <> <student/> </>
+        }
+
+Props(Properties)---
+    -It means Data passed from Parent to child
+    -Return 
+        function App(){
+            return <Student Name: "Taslima"/>
+        }
+        function student(Props){
+            return <h2> Name: {Props.Name} </h2>
+        }
+
+Activiies****
+    1.What is difference between Angular and React
+    2.Market hype?
+    3.Why React is created?
+    4.<> </>--Find meaning of this.
+    5.What is Components and its types
+    6.Where we use component in React
+    7.2 Ex of Component
+    8.What is props? Why we use Props? Types of props with 2 Ex

@@ -1,0 +1,95 @@
+Angular
+
+--type script based frontend framework developed by google for web application
+--It is single Page Application-SPA
+--It helps us to bulit SPA
+--SPA where the page does not fully reload when navigation  
+
+Tools--
+node js
+npm
+Angular cli-command line Interface--used to create and manage angular application
+
+Commands--
+1.node -v
+2.npm install -g @angular/cli
+3.ng new student_management/project_name
+4.code .
+
+To run angular project--
+    ng serve
+    ng s
+    ng serve -o
+
+***Component--
+    block of code/structure
+    UI block of code 
+When we create one component-- 
+    ng generate component comp_name
+    ng g c comp_name
+
+In angular--there are 4 files in folder--
+-html
+    structure of html code 
+-css
+    styling of code
+-ts
+    code of type script
+-spec.ts
+    testing file
+
+
+
+****Package-json---
+
+List packages
+include dependencies--production build
+dev dependencies--local development
+angular.json--project configuration files
+style.css--project css style
+.gitignore--files or folders to execute from version control
+tsconfig.json--typescript configuration files
+index.html--main file loads angular 
+app.config.ts--app configuration
+main.ts--entry point of application
+
+***Data Binding***
+
+--Data binding connects UI to Code
+--
+
+Types of Data Binding
+    1.One-way
+        -Interpolation
+            -Show data from ts in html
+                {{value}}
+
+        -Property Binding
+
+        -Event Binding
+    
+    2.Two-way
+        -ng module
+
+
+Activity---15/04/2026
+Directives--
+1.Show and Hide Div
+2.Toggle button
+3.Number--if number are same then hide Div
+4.
+
+***SERVICES***
+
+    -It is like helper class
+    -It is used to store a data and share logic so many component can used
+    -Instead of writing same code in every component,we write it once in a service
+
+    Command--
+        ng g s service_name
+
+Activity--
+    1.Write 2 examples with services in Angular
+    2.Learn mofre about dependency Injection
+
+

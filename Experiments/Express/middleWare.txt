@@ -1,0 +1,9 @@
+MiddleWare is a function that executes during request before sending the final Response
+
+
+They have access to 3 parameter--
+request,response,next
+
+client --> middleware --> server
+
+

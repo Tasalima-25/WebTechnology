@@ -1,0 +1,36 @@
+SQL
+
+    It helps to 
+    Real time example-
+        E-commerce,Banking
+        store procedure,views,joins
+
+***Activiies***
+    Create table--
+        create table student(varchar name,int id,int age,varchar address);
+
+    Insert data--
+        insert into student values("Taslima",304,21,"Ichalkaranji")
+
+    Update--
+        
+    Select--
+
+***Web Socket***
+
+    Web socket allows us real time communication 
+    http->req,res
+    websocket->continuos communication
+    Real time ex-
+        Whatsapp,Live stock price update,Online Gaming,Notification
+
+    npm install ws 
+
+    Activiies-------
+        1.Deep study Web socket
+        2.Understand Web Socket with Example
+
+ORM----
+    Object Relational Mapping
+        Instead of writing sql queriees qe use js Object
+        select * from user-->select.findAll

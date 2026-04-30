@@ -1,0 +1,29 @@
+<!-- <p>home works!</p> -->
+<h2>Student Details</h2>
+<p>InterPolution : one way data binding , It show Data from ts html </p>
+<p>Name: {{student.name}}</p>
+<p>Age: {{student.age}} </p>
+<p>Course: {{student.course}} </p>
+
+<hr>
+<img [src]="src">
+<hr>
+
+<h2>Student Update</h2>
+<p>Event Binding </p>
+<input type="text" placeholder="Enter Name" [(ngModel)]="newStudent.name">
+<br><br>
+<input type="text" placeholder="Enter Age" [(ngModel)]="newStudent.age">
+<br><br>
+<input type="text" placeholder="Enter course" [(ngModel)]="newStudent.course">
+<br><br>
+
+<button (click)="updateStudent()">Update Stuent</button>
+
+<hr>
+<h2>List of Courses Available</h2>
+<ul>
+    @for(c of courses; track c){
+        <li>{{c}}</li>
+    }
+</ul>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Bus Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">🚌 Smart Bus Reservation</div>
+
+<div class="main">
+
+    <div class="container">
+        <select id="route">
+            <option value="">Select Route</option>
+            <option>Pune → Mumbai</option>
+            <option>Pune → Goa</option>
+            <option>Mumbai → Goa</option>
+            <option>Pune → Nashik</option>
+            <option>Mumbai → Nashik</option>
+            <option>Pune → Kolhapur</option>
+            <option>Mumbai → Pune</option>
+        </select>
+
+        <input type="date" id="date">
+        <input type="time" id="time">
+
+        <h3>🪑 Choose Your Seat</h3>
+        <div id="seats"></div>
+
+        <div id="names"></div>
+
+        <h3>Total: ₹<span id="total">0</span></h3>
+
+        <button onclick="bookNow()">Book Ticket</button>
+    </div>
+
+    <div class="bookingSection">
+        <h2>🎫 Bookings</h2>
+        <ul id="list"></ul>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
